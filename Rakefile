@@ -15,7 +15,7 @@ begin
     s.name = "moqueue"
     s.summary = "Mocktacular Companion to AMQP Library. Happy TATFTing!"
     s.email = "dan@kallistec.com"
-    s.homepage = "http://github.com/danielsdeleo/moqueue"
+    s.homepage = "http://github.com/jsaedtler/moqueue"
     s.description = "Mocktacular Companion to AMQP Library. Happy TATFTing!"
     s.authors = ["Daniel DeLeo"]
     s.files =  FileList["[A-Za-z]*", "{lib,spec}/**/*"]

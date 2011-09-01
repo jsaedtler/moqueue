@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{moqueue}
-  s.version = "0.1.4"
+  s.version = "0.1.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Daniel DeLeo"]
-  s.date = %q{2009-09-21}
+  s.date = %q{2011-09-01}
   s.description = %q{Mocktacular Companion to AMQP Library. Happy TATFTing!}
   s.email = %q{dan@kallistec.com}
   s.extra_rdoc_files = [
@@ -47,11 +47,11 @@ Gem::Specification.new do |s|
      "spec/unit/object_methods_spec.rb",
      "spec/unit/overloads_spec.rb"
   ]
-  s.homepage = %q{http://github.com/danielsdeleo/moqueue}
+  s.homepage = %q{http://github.com/jsaedtler/moqueue}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{moqueue}
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.7}
   s.summary = %q{Mocktacular Companion to AMQP Library. Happy TATFTing!}
   s.test_files = [
     "spec/examples/ack_spec.rb",
@@ -75,7 +75,7 @@ Gem::Specification.new do |s|
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<amqp>, [">= 0"])
     else
       s.add_dependency(%q<amqp>, [">= 0"])
